@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">ClamAV 백신 연동 애드온</title>
+    <title xml:lang="en">ClamAV Antivirus Integration</title>
+    <description xml:lang="ko">서버에 설치된 ClamAV 백신을 사용하여 첨부파일을 검사합니다.</description>
+    <description xml:lang="en">Scan attachments with ClamAV antivirus installed on the server.</description>
+    <version>1.0.0</version>
+    <date>2017-01-23</date>
+	<author link="https://www.poesis.org">
+		<name xml:lang="ko">포에시스</name>
+		<name xml:lang="en">POESIS</name>
+	</author>
+    <extra_vars>
+		<var name="clamav_command">
+			<title xml:lang="ko">ClamAV 명령</title>
+			<title xml:lang="en">ClamAV Command</title>
+			<description xml:lang="ko">서버에 설치된 ClamAV 명령의 경로, 예: /usr/bin/clamdscan</description>
+			<description xml:lang="en">Path of the ClamAV executable, e.g. /usr/bin/clamdscan</description>
+		</var>
+		<var name="except_extensions">
+			<title xml:lang="ko">검사 제외 확장자</title>
+			<title xml:lang="en">Excluded Extensions</title>
+			<description xml:lang="ko">검사하지 않을 확장자를 나열해 주십시오, 예: jpg, jpeg, png</description>
+			<description xml:lang="en">List of file extensions to skip, e.g. jpg, jpeg, png</description>
+		</var>
+	</extra_vars>
+</addon>

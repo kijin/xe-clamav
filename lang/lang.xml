@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lang>
+	<item name="cmd_clamav_executable_not_found">
+		<value xml:lang="ko"><![CDATA[ClamAV 명령 경로가 올바르지 않거나 실행 권한이 없습니다.]]></value>
+		<value xml:lang="en"><![CDATA[The path to the ClamAV executable is either incorrect or inaccessible.]]></value>
+	</item>
+	<item name="cmd_clamav_unable_to_scan">
+		<value xml:lang="ko"><![CDATA[ClamAV 바이러스 검사 도중 오류가 발생했습니다: %s]]></value>
+		<value xml:lang="en"><![CDATA[An error occurred during the ClamAV virus scan: %s]]></value>
+	</item>
+	<item name="cmd_clamav_virus_found">
+		<value xml:lang="ko"><![CDATA[%1$s 파일에서 %2$s 바이러스가 발견되어 업로드를 중단합니다.]]></value>
+		<value xml:lang="en"><![CDATA[%2$s virus found in %1$s. Upload aborted.]]></value>
+	</item>
+</lang>
