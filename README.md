@@ -8,8 +8,8 @@ ClamAV 백신 연동 애드온
 
 단독서버 또는 가상서버인 경우
 
-  - ClamAV daemon이 설치되어 있어야 하고
-  - PHP에서 `clamdscan` 명령을 실행할 수 있어야 하며
-  - ClamAV daemon이 업로드 임시 폴더에 접근할 권한이 있어야 합니다.
+  - ClamAV 데몬(clamd)이 설치되어 있어야 하고
+  - PHP에서 `shell_exec()` 함수로 `clamdscan` 명령을 실행할 수 있어야 하며 (데몬 없이 단독으로 실행하는 `clamscan` 명령은 매우 느리기 때문에 권장하지 않습니다.)
+  - ClamAV 데몬이 업로드 임시 폴더에 접근할 권한이 있어야 합니다.
 
 라이선스는 GPLv2입니다.

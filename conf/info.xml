@@ -5,7 +5,7 @@
     <description xml:lang="ko">서버에 설치된 ClamAV 백신을 사용하여 첨부파일을 검사합니다.</description>
     <description xml:lang="en">Scan attachments with ClamAV antivirus installed on the server.</description>
     <version>1.0.0</version>
-    <date>2017-01-23</date>
+    <date>2017-02-02</date>
 	<author link="https://www.poesis.org">
 		<name xml:lang="ko">포에시스</name>
 		<name xml:lang="en">POESIS</name>
